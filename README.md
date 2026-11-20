@@ -130,6 +130,8 @@ ctest --test-dir build --output-on-failure
 
 데모는 합성 시간의 입력 11개를 즉시 처리해 CSV 형식으로 출력합니다. 실제 시간에 맞춘 비행 시뮬레이션이나 성능 측정이 아닙니다. [입력 계약·기준·검증 환경·sanitizer 실행법](docs/cloud-m1.md).
 
+로컬 개발용 `release`, `debug`, `sanitize` CMake preset과 VS Code 설정도 제공합니다. [macOS 설정·실행 방법과 검증 결과](docs/local-setup.md).
+
 ## 참고 자료
 
 공식 문서 확인: 2026-11-16. `main` 문서는 변할 수 있으므로 구현 시 선택한 release/commit과 호환 조합을 기록합니다.
